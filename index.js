@@ -1,1 +1,1 @@
-module.exports = require('./lib/dlt.js');
+module.exports = require('./dist/dlt.js');
