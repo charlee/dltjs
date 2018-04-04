@@ -1,0 +1,35 @@
+{
+  "name": "dltjs",
+  "version": "0.1.0",
+  "description": "A package for computing Direct Linear Transformation matrix.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel lib -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlee/dltjs.git"
+  },
+  "keywords": [
+    "computer-graphics",
+    "javascript",
+    "math",
+    "transformation",
+    "matrix"
+  ],
+  "author": "Charlee Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlee/dltjs/issues"
+  },
+  "homepage": "https://github.com/charlee/dltjs#readme",
+  "dependencies": {
+    "mathjs": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
